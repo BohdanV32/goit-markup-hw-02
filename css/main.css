@@ -1,0 +1,104 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,2;    
+    }
+.site-nav {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}
+.site-nav:hover, 
+.site-nav:focus {
+    color: #2196F3;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}
+.title-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+.title-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,17
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.title-3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.button:hover,
+.button:focus {
+    color: #2196F3;
+}
+.button {
+    color: #212121;
+}
+.address {
+    background: #2F303A;
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.link-address-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}

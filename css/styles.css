@@ -8,3 +8,6 @@ body {
     font-size: 26px;
     line-height: 1,2;   
 }
+.images-portfolio {
+    list-style-type: none;
+}

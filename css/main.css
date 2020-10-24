@@ -1,24 +1,105 @@
-body {
-    font-family: Roboto, sans-serif;
-    color: black;
-}
+/* raleway-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v18-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v18-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v18-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v18-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v18-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v18-latin_cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v18-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v18-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v18-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v18-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v18-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v18-latin_cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+/* roboto-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v20-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+         url('../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+         url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - latin_cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v20-latin_cyrillic-900.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Black'), local('Roboto-Black'),
+         url('../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin_cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
 :root {
-    --main-text-color: rgba(117, 117, 117, 1);	    
-    --accent-color: #2196f3;	  
-    --black: rgba(33, 33, 33, 1);	   
-    --white: #ffffff;	   
-    --footer-text-accent: rgba(255, 255, 255, 0.6);	    
-    --main-bg: #e5e5e5;	    
-    --light-bg: #f5f4fa;	    
-    --dark-bg: #2f303a;	 
-}   
+    --main-text-cl: #757575;
+    --accent-cl: #2196F3;
+    --black: #212121;
+    --gray: #ffffff99;
+    --white: #ffffff;
+    --dark-bg: #2F303A;
+    --bg: #F5F4FA;
+    }
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-cl);
+    background-color: var(--white);
+}
 .logo {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
-    color: #2196F3;    
+    color: var(--accent-cl);    
     }
 .logo-header {
     font-family: Raleway;
@@ -26,7 +107,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2; 
-    color: #212121;
+    color: var(--black);
 }
 .logo-footer {
     font-family: Raleway;
@@ -34,34 +115,37 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2; 
-    color: #FFFFFF;
+    color: var(--white);
 }
 a {
     text-decoration: none;
 }
 .site-nav {
     list-style-type: none;
-    color: #212121;
+}
+.site-nav .link {
+    list-style-type: none;
+    color: var(--black);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-.site-nav:hover, 
-.site-nav:focus {
-    color: #2196F3;
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-cl);
 }
-.site-nav:active {
-    color: blueviolet;
+.site-nav .link.current {
+    color: var(--accent-cl);
 }
 .contacts:hover,
 .contacts:focus {
-    color: #2196F3;
+    color: var(--accent-cl);
 }
 .contacts {
     list-style-type: none;
-    color: #757575;
+    color: var(--main-text-cl);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -77,7 +161,7 @@ a {
 .section-contacts {
     list-style-type: none;
 }
-.title-1 {
+.title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -86,21 +170,11 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #2F303A;
+    color: var(--white);
+    background: var(--dark-bg);
 }
-.title-2 {
+.title-ss {
     list-style-type: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2.0;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.title-3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -108,30 +182,74 @@ a {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--black);
 }
 .subtitle {
+    list-style-type: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 2.0;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-text-cl);
+}
+.title-wwd {
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+.title-ot {
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--black); 
+}
+.title-team {
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black);
 }
 .button:hover,
 .button:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white);
+    background-color: var(--accent-cl);
 }
 .button {
-    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var (--black);
 }
 .menu-buttons {
     list-style-type: none;
 } 
 .address {
-    background: #2F303A;
+    font-style: normal;
+    background: var(--dark-bg);
 }
 .text {
     list-style-type: none;
@@ -141,7 +259,7 @@ a {
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .link-address-contacts {
     font-family: Roboto;
@@ -151,4 +269,33 @@ a {
     line-height: 1,7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+/*page portfolio*/
+.title-ip {
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+.images-portfolio {
+    list-style-type: none;
+}
+.button-filter:hover,
+.button-filter:focus {
+    color: var(--white);
+    background-color: var(--accent-cl);
+}
+.button-filter {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
 }

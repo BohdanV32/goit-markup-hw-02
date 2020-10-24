@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css"/> 
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <body>
     <header class="page-header">
-        <nav>
-            <div> 
-                <a href="WebStudio" class="logo">Web<span class="logo-header">Studio</a>
-            </div>
+        <nav class="nav-page">
+            <a href="WebStudio" class="logo">Web<span class="logo-header">Studio</span></a>
             <ul class="site-nav">
-              <li><a href="./index.html" class="site-nav">Студия</a></li>
-              <li><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
-              <li><a href="contacts" class="site-nav">Контакты</a></li>
+              <li><a href="./index.html" class="link">Студия</a></li>
+              <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+              <li><a href="#address" class="link">Контакты</a></li>
             </ul>
         </nav>
             <ul class="contacts">
@@ -25,15 +23,15 @@
             <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
             </ul>
     </header>
-    <!--section menu buttoms-->
+    <!--section menu buttons-->
     <section>
         <div>
             <ul class="menu-buttons">   
-                <li><button type="button" class="button">Все</button></li>
-                <li><button type="button" class="button">Веб-сайты</button></li>
-                <li><button type="button" class="button">Приложения</button></li>
-                <li><button type="button" class="button">Дизайн</button></li>
-                <li><button type="button" class="button">Маркетинг</button></li>
+                <li><button type="button" class="button-filter">Все</button></li>
+                <li><button type="button" class="button-filter">Веб-сайты</button></li>
+                <li><button type="button" class="button-filter">Приложения</button></li>
+                <li><button type="button" class="button-filter">Дизайн</button></li>
+                <li><button type="button" class="button-filter">Маркетинг</button></li>
             </ul>
         </div>
     </section>
@@ -42,39 +40,39 @@
         <div>
             <ul class="images-portfolio">
                 <li><img src="./imgs/технокряк.jpg" width="370" height="294" alt="технокряк">
-                    <h2 lang="ru" class="title-2">Технокряк </h2>
+                    <h2 lang="ru" class="title-ip">Технокряк </h2>
                     <p lang="ru" class="subtitle">Веб-сайт</p></li>
                 <li><img src="./imgs/постер.jpg" width="370" height="294" alt="постер">
-                    <h2 lang="ru" class="title-2">Постер New Orlean vs Golden Star</h2>
+                    <h2 lang="ru" class="title-ip">Постер New Orlean vs Golden Star</h2>
                     <p lang="ru" class="subtitle">Дизайн</p></li>
                 <li><img src="./imgs/ресторан.jpg" width="370" height="294" alt="ресторан">
-                    <h2 lang="ru" class="title-2">Ресторан Seafood </h2>
+                    <h2 lang="ru" class="title-ip">Ресторан Seafood </h2>
                     <p lang="ru" class="subtitle">Приложение</p></li>
                 <li><img src="./imgs/проектprime.jpg" width="370" height="294" alt="проектprime">
-                    <h2 lang="ru" class="title-2">Проект Prime </h2>
+                    <h2 lang="ru" class="title-ip">Проект Prime </h2>
                     <p lang="ru" class="subtitle">Маркетинг</p></li>
                 <li><img src="./imgs/проектboxes.jpg" width="370" height="294" alt="проектboxes">
-                    <h2 lang="ru" class="title-2">Проект Boxes</h2>
+                    <h2 lang="ru" class="title-ip">Проект Boxes</h2>
                     <p lang="ru" class="subtitle">Приложение</p></li>
                 <li><img src="./imgs/inspiration.jpg" width="370" height="294" alt="inspiration">
-                    <h2 lang="en" class="title-2">Inspiration has no Borders </h2>
+                    <h2 lang="en" class="title-ip">Inspiration has no Borders </h2>
                     <p lang="ru" class="subtitle">Веб-сайт</p></li>
                 <li><img src="./imgs/издание.jpg" width="370" height="294" alt="издание">
-                    <h2 lang="ru" class="title-2">Издание Limited Edition </h2>
+                    <h2 lang="ru" class="title-ip">Издание Limited Edition </h2>
                     <p lang="ru" class="subtitle">Дизайн</p></li>
                 <li><img src="./imgs/проектlab.jpg" width="370" height="294" alt="проектlab">
-                    <h2 lang="ru" class="title-2">Проект LAB </h2>
+                    <h2 lang="ru" class="title-ip">Проект LAB </h2>
                     <p lang="ru" class="subtitle">Маркетинг</p></li>
                 <li><img src="./imgs/growing.jpg" width="370" height="294" alt="growing">
-                    <h2 lang="ru" class="title-2">Growing Business </h2>
+                    <h2 lang="ru" class="title-ip">Growing Business </h2>
                     <p lang="ru" class="subtitle">Приложение</p></li>
             </ul>
         </div>
     </section>
     <footer>
         <div class="address">
-            <a href="WebStudio" class="logo">Web<span class="logo-footer">Studio</a>
-            <address>
+            <a href="WebStudio" class="logo">Web<span class="logo-footer">Studio</span></a>
+            <address id="address">
                 <ul class="text">
                     <li>г. Киев, пр-т Леси Украинки, 26</li>
                     <li><a href="mailto:info@devstudio.com" class="link-address-contacts">info@devstudio.com</a></li>
@@ -82,6 +80,6 @@
                 </ul>
             </address>
         </div>
-    </footer>   
+    </footer>  
 </body>
 </html>
